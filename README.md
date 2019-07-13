@@ -16,13 +16,13 @@ Clique em 'Go'
 
 # Request
 
-<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+"<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
     <Body>
         <GetCourseDetailsRequest xmlns="http://stdy-soap.com.br/courses">
             <id>2</id>
         </GetCourseDetailsRequest>
     </Body>
-</Envelope>
+</Envelope> "
 
 # Response
 
