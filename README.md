@@ -12,20 +12,20 @@ Acesse o pluging Wizdler na barra de ferramentas e escolha o método 'GetCourseD
 Passe o valor 1 na tag <id>;
 Clique em 'Go'
 
-# Exemplo
+### Exemplo 
 
-# Request
-
-"<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+##### Request:
+```
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
     <Body>
         <GetCourseDetailsRequest xmlns="http://stdy-soap.com.br/courses">
             <id>2</id>
         </GetCourseDetailsRequest>
     </Body>
-</Envelope> "
-
-# Response
-
+</Envelope> 
+```
+##### Response:
+```
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP-ENV:Header/>
     <SOAP-ENV:Body>
@@ -38,3 +38,4 @@ Clique em 'Go'
         </ns2:GetCourseDetailsResponse>
     </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
+```
