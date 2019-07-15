@@ -83,25 +83,25 @@
 			<!-- XSD Source Folder -->
 			<!-- Java Object Source Folder -->
 			<!-- Clear folder -> false -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>jaxb2-maven-plugin</artifactId>
-				<version>1.6</version>
-				<executions>
-					<execution>
-						<id>xjc</id>
-						<goals>
-							<goal>xjc</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>
-					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>
-					<packageName>br.com.stdy.soap.ws</packageName>
-					<clearOutputDir>false</clearOutputDir>
-				</configuration>
-			</plugin>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.codehaus.mojo</groupId> -->
+<!-- 				<artifactId>jaxb2-maven-plugin</artifactId> -->
+<!-- 				<version>1.6</version> -->
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>xjc</id> -->
+<!-- 						<goals> -->
+<!-- 							<goal>xjc</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
+<!-- 				<configuration> -->
+<!-- 					<schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory> -->
+<!-- 					<outputDirectory>${project.basedir}/src/main/java</outputDirectory> -->
+<!-- 					<packageName>br.com.stdy.soap.ws</packageName> -->
+<!-- 					<clearOutputDir>false</clearOutputDir> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
 		</plugins>
 	</build>
 

@@ -31,7 +31,7 @@ public class WebServiceConfig {
 		
 		definition.setPortTypeName("CoursePort");
 		definition.setTargetNamespace("http://stdy-soap.com.br/courses");
-		definition.setLocationUri("/ws");
+		definition.setLocationUri("http://localhost:8080/ws");
 		definition.setSchema(cousesSchema);
 		
 		return definition;
